@@ -1,0 +1,75 @@
+.listGroupItem{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.listGroupItem:last-child{
+    border-bottom: none;
+}
+
+.listGroupItem span{
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    min-width: 300px;
+  text-align: center;
+}
+
+.listGroupItem input{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;    
+}
+
+.listGroupItem button{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.listGroupItem .btnCookie{
+    color: #e09f3e;
+}
+
+.listGroupItem  .btnTrash{
+    color: #e5383b;
+}
+
+.listGroupItem .fa-star{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #ffd700;
+    transition: .3s all;
+    transform: translateX(30px);
+    opacity: 0;    
+}
+
+.listGroupItem.like .fa-star{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.listGroupItem.increase .listGroupItemLabel, .listGroupItem.increase .listGroupItemInput{
+    color: #e09f3e;
+}
+
+.listGroupItem .btnStar{
+    align-items: center;
+    color: #aeaeaa;
+}
+
+.btnStar{
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}

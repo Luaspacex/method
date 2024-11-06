@@ -1,0 +1,13 @@
+.btnBlock{
+    margin-top: 20px;
+}
+
+.btnOutlineLight{
+    border: 1px white solid;
+    color: white;
+}
+
+.btnLight{
+    background-color: white;
+    color: black;
+}

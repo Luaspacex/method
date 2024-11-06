@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@100&display=swap');
+
+.appInfo{
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+    color: white;
+}
+.companyName{
+    font-weight: 600;
+}
