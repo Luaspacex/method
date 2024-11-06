@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import "./EmoloyersListItem.css"
 
 const EmployersListItem = (props) => {
-        const {name, salary, service, onDelete, onToggleProp, increase, rise} = props;
+        const {name, salary, service, date, onDelete, onToggleProp, increase, rise} = props;
         let classNames="listGroupItem d-flex justifyContentBetween like";
     if(increase){
         classNames += ' increase';
@@ -20,6 +20,7 @@ const EmployersListItem = (props) => {
         >
         
         <div className={classNames} >
+        <span className="listGroupItemLabel" onClick={onToggleProp} data-toggle="rise">{date}</span>
             <span className="listGroupItemLabel" onClick={onToggleProp} data-toggle="rise">{name}</span>
             <span className="listGroupItemLabel" onClick={onToggleProp} >{service}</span>
             <input type="text" className="listGroupItemInput" defaultValue={salary + "₸"} />
